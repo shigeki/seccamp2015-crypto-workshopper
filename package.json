@@ -1,0 +1,30 @@
+{
+  "name": "seccamp2015-crypto-workshopper",
+  "version": "0.0.2",
+  "description": "Security Camp 2015 Crypto Workshop",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "seccamp2015-crypto-workshopper": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shigeki/seccamp2015-crypto-workshopper"
+  },
+  "keywords": [
+    "seccamp2015"
+  ],
+  "author": "Shigeki Ohtsu <ohtsu@iij.ad.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shigeki/seccamp2015-crypto-workshopper/issues"
+  },
+  "homepage": "https://github.com/shigeki/seccamp2015-crypto-workshopper",
+  "dependencies": {
+    "workshopper": "^2.7.0",
+    "workshopper-exercise": "^2.4.0"
+  }
+}

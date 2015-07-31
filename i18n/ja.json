@@ -1,0 +1,14 @@
+{
+    "title": "Security Camp 2015 Crypto Workshopper",
+    "subtitle": "基本的なCryptoの使い方を学ぶ",
+    "exercise": {
+	"RANDOM GENERATION": "乱数生成",
+	"AEAD(AES-GCM)": "AEAD(AES-GCM)",
+	"PUBLIC ENCRYPTION": "公開鍵暗号",
+	"HASH": "一方向ハッシュ",
+	"KEY EXCHANGE": "鍵交換",
+	"MAC": "メッセージ認証",
+	"DIGITAL SIGNATURE": "デジタル署名",
+	"X509 CERTIFICATION": "X509証明書"
+    }
+}

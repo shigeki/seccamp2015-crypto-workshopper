@@ -1,0 +1,14 @@
+{
+    "title": "Security Camp 2015 Crypto Workshopper",
+    "subtitle": "Learn Basic Crypto",
+    "exercise": {
+	"RANDOM GENERATION": "Random Generation",
+	"AEAD(AES-GCM)": "AES-GCM",
+	"PUBLIC ENCRYPTION": "Public Encryption",
+	"HASH": "Hash",
+	"KEY EXCHANGE": "Key Exchange",
+	"MAC": "Message Authentication Code",
+	"DIGITAL SIGNATURE": "Digital Signature",
+	"X509 CERTIFICATION": "X509 Certification"
+    }
+}
