@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/shigeki/seccamp2015-crypto-workshopper",
   "dependencies": {
+    "through2": "^2.0.0",
     "workshopper": "^2.7.0",
     "workshopper-exercise": "^2.4.0"
   }

@@ -6,8 +6,9 @@
 	"AEAD(AES-GCM)": "AEAD(AES-GCM)",
 	"PUBLIC ENCRYPTION": "公開鍵暗号",
 	"HASH": "一方向ハッシュ",
-	"KEY EXCHANGE": "鍵交換",
 	"MAC": "メッセージ認証",
+	"KEY EXCHANGE DH": "鍵交換(DH)",
+	"KEY EXCHANGE ECDH": "鍵交換(ECDH)",
 	"DIGITAL SIGNATURE": "デジタル署名",
 	"X509 CERTIFICATION": "X509証明書"
     }

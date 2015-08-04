@@ -1,7 +1,8 @@
-var crypto = require('crypto');
-var other_public_key = process.argv[2];
-var digital_signature = process.argv[3];
+## デジタル署名
+第一引数にHEX文字列で表されたuncompressed形式のECDH公開鍵、第2引数にデジタル署名が渡されます。公開鍵はランダムに改ざんされています。以下のデジタル署名の公開鍵を使って、署名検証してECDH公開鍵が改ざんされていなければ true、改ざんされていれば false を標準出力に出力しなさい。
 
+
+````
 var public_key_str = "-----BEGIN PUBLIC KEY-----\n" +
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxdMF0D3TDXRsAjxlAFbv\n" +
     "hb/fE4P95JEDOCjf4REd8+XcIzMcyJT79QcjGoVg6LlUFMKfxbRDTIw/BQHT5sIW\n" +
@@ -11,10 +12,4 @@ var public_key_str = "-----BEGIN PUBLIC KEY-----\n" +
     "xAjt6mI7ixMXDfnxb7ACR4+XpsbqqvxBFD18XTRuT3im6ubX1zZCJPh/BI75bb5h\n" +
     "OwIDAQAB\n" +
     "-----END PUBLIC KEY-----";
-
-var public_key = new Buffer(public_key_str);
-
-var verifier = crypto.createVerify('RSA-SHA256');
-verifier.update(other_public_key);
-var tamper = verifier.verify(public_key, digital_signature, 'hex');
-console.log(tamper);
+````

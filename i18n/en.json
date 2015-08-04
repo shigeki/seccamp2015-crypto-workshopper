@@ -6,8 +6,9 @@
 	"AEAD(AES-GCM)": "AES-GCM",
 	"PUBLIC ENCRYPTION": "Public Encryption",
 	"HASH": "Hash",
-	"KEY EXCHANGE": "Key Exchange",
 	"MAC": "Message Authentication Code",
+	"KEY EXCHANGE DH": "Key Exchange(DH)",
+	"KEY EXCHANGE ECDH": "Key Exchange(ECDH)",
 	"DIGITAL SIGNATURE": "Digital Signature",
 	"X509 CERTIFICATION": "X509 Certification"
     }
