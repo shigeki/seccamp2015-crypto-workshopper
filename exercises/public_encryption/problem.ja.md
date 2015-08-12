@@ -3,6 +3,9 @@
 This is my secret
 の文字列を暗号化し、Base64形式で標準出力に出力しなさい。
 
+## ヒント
+https://nodejs.org/api/crypto.html#crypto_crypto_publicencrypt_public_key_buffer
+を使おう
 
 (注) crypto.publicEncrypt を使うには公開鍵をDER形式からPEM形式に変換する必要があります。下記fromDERtoPEM関数(typeは 'public_key')を使ってPEM変換した公開鍵を使いなさい。またpadding形式は RSA_PKCS1_PADDING を使いなさい。paddingは下記の様に指定します。
 

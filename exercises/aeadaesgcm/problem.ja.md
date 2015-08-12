@@ -8,3 +8,7 @@ iv: '24f9a3b6e0fba2186f32c214',
 cryptedtext: '7107fcbe659fc268aeb9cbb8942566b4a79c2cb9aab6d1051bbe9a67c314ba7158ac39ccd88d5cd1c736b947f789ae7f9d4a',
 tag: '384294ea82fcee9c59b599d8371f7c3a'
 ````
+
+### ヒント
+https://nodejs.org/api/crypto.html#crypto_crypto_createdecipher_algorithm_password
+を使おう

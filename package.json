@@ -1,6 +1,6 @@
 {
   "name": "seccamp2015-crypto-workshopper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Security Camp 2015 Crypto Workshop",
   "main": "index.js",
   "preferGlobal": true,
